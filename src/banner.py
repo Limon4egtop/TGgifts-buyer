@@ -6,7 +6,7 @@ import pyfiglet
 
 
 def info(file_path="data/json/info.json"):
-    with open(file_path, "r") as file:
+   with open(file_path, "r", encoding="utf-8") as file:
         return json.load(file)
 
 
